@@ -22,6 +22,13 @@ cells:
       - "config/mc_switches.spice"
       - "sky130A/libs.tech/ngspice/sky130.lib.spice tt"
 
+    inputs:
+      - D
+      - CLK
+
+    outputs:
+      - Q
+
     clock: "posedge CLK"
 
     state:
