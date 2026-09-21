@@ -1,4 +1,4 @@
-.subckt not1 a z vdd vss
+.subckt not1 a vdd vss z
 X0 z a vss vss sky130_fd_pr__nfet_01v8 ad=0.126 pd=1.44 as=0.126 ps=1.44 w=0.42 l=0.15
 X1 z a vdd vdd sky130_fd_pr__pfet_01v8 ad=0.378 pd=3.12 as=0.378 ps=3.12 w=1.26 l=0.15
 C0 a vdd 0.08234f
