@@ -16,27 +16,21 @@ cells:
   dflipflop:
     netlist: "cells/dflipflop.spice"
 
-    area: 3.7536
+    area: 19.5
 
     models:
       - "config/mc_switches.spice"
       - "sky130A/libs.tech/ngspice/sky130.lib.spice tt"
 
-    inputs:
-      - D
-      - CLK
-
-    outputs:
-      - Q
-
     clock: "posedge CLK"
 
     state:
-      - "IQ = D"
+      - "IQ = Q"
+
+    clock_slews: [0.01, 0.05, 0.1]
 
     functions:
-      - "Q <= IQ"
+      - "Q <= D"
 
     data_slews: [0.01, 0.05, 0.1, 0.2]
-    clock_slews: [0.01, 0.05, 0.1, 0.2]
     loads: [0.001, 0.005, 0.01, 0.05]
