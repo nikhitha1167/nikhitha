@@ -26,14 +26,4 @@ cells:
     loads: [0.001, 0.005, 0.01, 0.05]
 
     functions:
-      - "Q=D"
-
-    pins:
-      D:
-        direction: input
-
-      CLK:
-        direction: input
-
-      Q:
-        direction: output
+      - "Q=D & CLK"
