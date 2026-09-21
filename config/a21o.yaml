@@ -14,7 +14,7 @@ settings:
 
 cells:
   a21o:
-    netlist: "cells/a21o_pex.spice"
+    netlist: "cells/a21o.spice"
 
     area: 3.7536
 
