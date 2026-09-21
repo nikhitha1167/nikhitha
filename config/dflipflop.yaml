@@ -27,3 +27,13 @@ cells:
 
     functions:
       - "Q=D"
+
+    pins:
+      D:
+        direction: input
+
+      CLK:
+        direction: input
+
+      Q:
+        direction: output
