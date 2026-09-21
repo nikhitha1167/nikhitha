@@ -1,7 +1,5 @@
 * NGSPICE file created from dflipflop.ext - technology: sky130A
 
-.lib /foss/pdks/sky130A/libs.tech/ngspice/sky130.lib.spice tt
-
 .subckt dflipflop D CLK VDD VSS Q
 X0 a_3858_283# a_330_84# a_2064_84# VSS sky130_fd_pr__nfet_01v8 ad=0.1764 pd=1.68 as=0.1764 ps=1.68 w=0.42 l=0.15
 X1 a_1298_283# a_330_84# a_864_84# VDD sky130_fd_pr__pfet_01v8 ad=0.5292 pd=3.36 as=0.5292 ps=3.36 w=1.26 l=0.15
